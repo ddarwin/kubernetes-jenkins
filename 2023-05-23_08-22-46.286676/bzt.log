@@ -1,0 +1,71 @@
+[2023-05-23 08:22:46,178 INFO root] Taurus CLI Tool v1.16.22
+[2023-05-23 08:22:46,178 DEBUG root] Build: 14487 Fri Mar 31 13:13:16 UTC 2023
+[2023-05-23 08:22:46,178 DEBUG root] Extended git info:  24948e25 Changelog 1.16.22
+[2023-05-23 08:22:46,178 DEBUG root] Command-line options: {'log': '/var/folders/ng/2f63w6dj0vqbdkvdyxh944q40000gn/T/bzt_1_sfa1kn.log', 'option': None, 'quiet': None, 'verbose': None, 'no_system_configs': None, 'aliases': []}
+[2023-05-23 08:22:46,179 DEBUG root] Python: CPython 3.9.6
+[2023-05-23 08:22:46,179 DEBUG root] OS: uname_result(system='Darwin', node='Donalds-MacBook-Air.local', release='22.4.0', version='Darwin Kernel Version 22.4.0: Mon Mar  6 21:00:17 PST 2023; root:xnu-8796.101.5~3/RELEASE_X86_64', machine='x86_64')
+[2023-05-23 08:22:46,179 DEBUG root] Path to interpreter: /Library/Developer/CommandLineTools/usr/bin/python3
+[2023-05-23 08:22:46,179 DEBUG root] Path to packages: ['/Users/ddarwin/demos/Dev-Ops (Jenkins)/kubernetes-jenkins', '/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python39.zip', '/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9', '/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/lib-dynload', '/Users/ddarwin/Library/Python/3.9/lib/python/site-packages', '/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages']
+[2023-05-23 08:22:46,198 DEBUG root] Default python: None
+[2023-05-23 08:22:46,199 DEBUG root] Default python3: /usr/bin/python3
+[2023-05-23 08:22:46,199 DEBUG root] Using personal config: /Users/ddarwin/.bzt-rc
+[2023-05-23 08:22:46,199 INFO root] Starting with configs: ['/Users/ddarwin/.bzt-rc']
+[2023-05-23 08:22:46,199 INFO Engine] Configuring...
+[2023-05-23 08:22:46,254 DEBUG Engine] Base configs list: ['/Users/ddarwin/Library/Python/3.9/lib/python/site-packages/bzt/resources/10-base-config.yml']
+[2023-05-23 08:22:46,254 DEBUG Engine.Configuration] Configs: ['/Users/ddarwin/Library/Python/3.9/lib/python/site-packages/bzt/resources/10-base-config.yml']
+[2023-05-23 08:22:46,255 DEBUG Engine.Configuration] Reading /Users/ddarwin/Library/Python/3.9/lib/python/site-packages/bzt/resources/10-base-config.yml as YAML
+[2023-05-23 08:22:46,278 DEBUG Engine] User configs list: ['/Users/ddarwin/.bzt-rc']
+[2023-05-23 08:22:46,278 DEBUG Engine.Configuration] Configs: ['/Users/ddarwin/.bzt-rc']
+[2023-05-23 08:22:46,279 DEBUG Engine.Configuration] Reading /Users/ddarwin/.bzt-rc as YAML
+[2023-05-23 08:22:46,282 DEBUG Engine.Configuration] Configs: ['/Users/ddarwin/.bzt-rc']
+[2023-05-23 08:22:46,282 DEBUG Engine.Configuration] Reading /Users/ddarwin/.bzt-rc as YAML
+[2023-05-23 08:22:46,286 INFO HTTPClient] Proxy settings not set
+[2023-05-23 08:22:46,286 DEBUG Engine] Requesting updates info: https://gettaurus.org/updates/?version=1.16.22&installID=macos-367ddab09b96
+[2023-05-23 08:22:46,287 DEBUG HTTPClient] Making HTTP request GET https://gettaurus.org/updates/?version=1.16.22&installID=macos-367ddab09b96
+[2023-05-23 08:22:46,287 INFO Engine] Artifacts dir: /Users/ddarwin/demos/Dev-Ops (Jenkins)/kubernetes-jenkins/2023-05-23_08-22-46.286676
+[2023-05-23 08:22:46,288 DEBUG Engine] New artifact filename: /Users/ddarwin/demos/Dev-Ops (Jenkins)/kubernetes-jenkins/2023-05-23_08-22-46.286676/effective
+[2023-05-23 08:22:46,290 DEBUG Engine.Configuration] Dumping YAML config into /Users/ddarwin/demos/Dev-Ops (Jenkins)/kubernetes-jenkins/2023-05-23_08-22-46.286676/effective.yml
+[2023-05-23 08:22:46,306 DEBUG Engine.Configuration] Dumping JSON config into /Users/ddarwin/demos/Dev-Ops (Jenkins)/kubernetes-jenkins/2023-05-23_08-22-46.286676/effective.json
+[2023-05-23 08:22:46,307 DEBUG Engine] Add existing artifact (move=False): /Users/ddarwin/.bzt-rc
+[2023-05-23 08:22:46,307 DEBUG Engine] Copying /Users/ddarwin/.bzt-rc to /Users/ddarwin/demos/Dev-Ops (Jenkins)/kubernetes-jenkins/2023-05-23_08-22-46.286676/.bzt-rc
+[2023-05-23 08:22:46,308 DEBUG Engine] Set PYTHONPATH to :
+	CURRENT: '' +
+	TEMP: '/Users/ddarwin/demos/Dev-Ops (Jenkins)/kubernetes-jenkins/2023-05-23_08-22-46.286676/python-packages/3.9.6' +
+	USER: '/Users/ddarwin/.bzt/python-packages/3.9.6'
+[2023-05-23 08:22:46,309 DEBUG Engine] Content of user packages dir: []
+[2023-05-23 08:22:46,310 DEBUG Engine] OS env: OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+[2023-05-23 08:22:46,310 DEBUG Engine] OS env: TAURUS_ARTIFACTS_DIR=/Users/ddarwin/demos/Dev-Ops (Jenkins)/kubernetes-jenkins/2023-05-23_08-22-46.286676
+[2023-05-23 08:22:46,310 DEBUG root] Closing log handler: /var/folders/ng/2f63w6dj0vqbdkvdyxh944q40000gn/T/bzt_1_sfa1kn.log
+[2023-05-23 08:22:46,312 DEBUG root] Switched writing logs to /Users/ddarwin/demos/Dev-Ops (Jenkins)/kubernetes-jenkins/2023-05-23_08-22-46.286676/bzt.log
+[2023-05-23 08:22:46,312 DEBUG root] Linting config
+[2023-05-23 08:22:46,314 INFO Engine] Preparing...
+[2023-05-23 08:22:46,316 DEBUG Engine] Module config: consolidator {'class': 'bzt.modules.aggregator.ConsolidatingAggregator'}
+[2023-05-23 08:22:46,316 DEBUG root] Importing module: bzt.modules.aggregator
+[2023-05-23 08:22:46,368 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): gettaurus.org:443
+[2023-05-23 08:22:47,373 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from '/Users/ddarwin/Library/Python/3.9/lib/python/site-packages/bzt/modules/aggregator.py'>
+[2023-05-23 08:22:47,373 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2023-05-23 08:22:47,374 DEBUG Engine] Module config: monitoring {'class': 'bzt.modules.monitoring.Monitoring'}
+[2023-05-23 08:22:47,374 DEBUG root] Importing module: bzt.modules.monitoring
+[2023-05-23 08:22:47,377 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from '/Users/ddarwin/Library/Python/3.9/lib/python/site-packages/bzt/modules/monitoring.py'>
+[2023-05-23 08:22:47,377 DEBUG Engine] Module config: local {'class': 'bzt.modules.provisioning.Local'}
+[2023-05-23 08:22:47,377 DEBUG root] Importing module: bzt.modules.provisioning
+[2023-05-23 08:22:47,377 DEBUG root] Loading class: 'Local' from <module 'bzt.modules.provisioning' from '/Users/ddarwin/Library/Python/3.9/lib/python/site-packages/bzt/modules/provisioning.py'>
+[2023-05-23 08:22:47,377 ERROR root] Config Error: No 'execution' is configured. Did you forget to pass config files?
+[2023-05-23 08:22:47,386 DEBUG root] TaurusConfigError: No 'execution' is configured. Did you forget to pass config files?
+  File "/Users/ddarwin/Library/Python/3.9/lib/python/site-packages/bzt/cli.py", line 275, in perform
+    self.engine.prepare()
+  File "/Users/ddarwin/Library/Python/3.9/lib/python/site-packages/bzt/engine/engine.py", line 220, in prepare
+    self.__prepare_provisioning()
+  File "/Users/ddarwin/Library/Python/3.9/lib/python/site-packages/bzt/engine/engine.py", line 635, in __prepare_provisioning
+    self.provisioning.prepare()
+  File "/Users/ddarwin/Library/Python/3.9/lib/python/site-packages/bzt/modules/provisioning.py", line 69, in prepare
+    super(Local, self).prepare()
+  File "/Users/ddarwin/Library/Python/3.9/lib/python/site-packages/bzt/engine/modules.py", line 129, in prepare
+    raise exc
+[2023-05-23 08:22:47,386 INFO Engine] Post-processing...
+[2023-05-23 08:22:47,387 DEBUG Engine.consolidator] Consolidator buffer[0]: dict_keys([])
+[2023-05-23 08:22:47,388 DEBUG Engine.Configuration] Dumping YAML config into /Users/ddarwin/demos/Dev-Ops (Jenkins)/kubernetes-jenkins/2023-05-23_08-22-46.286676/effective.yml
+[2023-05-23 08:22:47,411 DEBUG Engine.Configuration] Dumping JSON config into /Users/ddarwin/demos/Dev-Ops (Jenkins)/kubernetes-jenkins/2023-05-23_08-22-46.286676/effective.json
+[2023-05-23 08:22:47,413 INFO root] Artifacts dir: /Users/ddarwin/demos/Dev-Ops (Jenkins)/kubernetes-jenkins/2023-05-23_08-22-46.286676
+[2023-05-23 08:22:47,413 WARNING root] Done performing with code: 1
+[2023-05-23 08:22:47,414 DEBUG root] Closing log handler: /Users/ddarwin/demos/Dev-Ops (Jenkins)/kubernetes-jenkins/2023-05-23_08-22-46.286676/bzt.log

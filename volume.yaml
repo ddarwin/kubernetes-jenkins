@@ -30,7 +30,7 @@ spec:
         - key: kubernetes.io/hostname
           operator: In
           values:
-          - worker-node01
+          - ip-192-168-18-40.us-east-2.compute.internal
 
 ---
 apiVersion: v1
